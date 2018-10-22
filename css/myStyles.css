@@ -1,0 +1,315 @@
+body {
+  font-family: 'Ubuntu';
+  color: #4a4a4a;
+  font-weight: 300;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+
+}
+body.homePage{background: url('../imgs/bgImg.png'); background-repeat: no-repeat;background-size: contain; background-position-y:93% }
+
+::selection {
+  background: #4a4a4a;
+  color: #ffffff
+}
+
+.clearit {
+  clear: both;
+}
+
+
+/*Logo*/
+
+.logo {
+  display: block;
+  text-indent: -9999px;
+  width: 230px;
+  height: 52px;
+  background: url(../imgs/Cloudintuit.svg);
+  background-size: 521px;
+  background-position: center;
+}
+
+.bannerCont{height: auto; margin-top: 52px;}
+
+.bannerCont .slide{position: relative;}
+.bannerCont .slide > img{width: 100%;}
+.bannerCont .slide > .bannerText{position: absolute;top: 0;color: white;margin-left: 10%;width: 40%;background: rgba(0,0,0,0.4);height: 100%;padding: 20px;padding-top: 10%;}
+.bannerCont .slide > .bannerText > h1{font-size: 3em; }
+.bannerCont .slide > .bannerText > p{font-size: 1.5em}
+
+
+section.home_whoweare{background: none}
+section.services > h2, section.home_whoweare > h2, section.home_howwework > h2{font-size: 36px; font-weight: lighter; text-align: center; margin-bottom: 30px;}
+section.home_whoweare>.content{background: none; margin-bottom: 30px;}
+section.home_whoweare>.content>.leftSec{float: left; background: #3680b5; min-height: 500px; width: 50%;position: relative;}
+section.home_whoweare>.content>.leftSec>.textCont{position: absolute; top:28%; left: 19%; color: white}
+section.home_whoweare>.content>.leftSec>.textCont>h3,section.home_howwework>.content>.rightSec>.textCont>h3{font-size: 48px; font-weight: lighter;}
+section.home_whoweare>.content>.leftSec>.textCont>p,section.home_howwework>.content>.rightSec>.textCont>p{font-size: 18px; font-weight:300;}
+section.home_whoweare>.content>.rightSec{float: right;background: url(../imgs/whoweare.jpg);min-height: 500px;width: 44%;background-position: -100px center;background-size: 780px;border-radius: 0 250px 250px 0;margin-right: 6%;}
+
+.services .slide{ width: 90%; margin: 10px auto; text-align: center; margin-bottom: 30px;}
+.services .slide>ul{margin: 0; padding: 0; margin-bottom: 30px;}
+.services .slide>ul>li{margin: 0; padding: 0;display: inline-block; width: 350px; height: 350px; background: white; margin-right: 20px; margin-bottom: 10px; padding: 10px 20px; text-align: left; box-shadow: 0 0 10px rgba(0,0,0,0.2); color: #3a3b3f;}
+.services .slide>ul>li:last-child{margin-right: 0;}
+.services .slide>ul>li>.serviceIcon{background: #e9eff9; width: 80px; height: 80px; border-radius: 40px; margin-bottom: 10px;}
+.services .slide>ul>li>.serviceHeading{font-size: 24px; font-weight: light; margin-bottom: 14px}
+
+section.home_howwework>.content{background: none; margin-bottom: 30px;}
+section.home_howwework>.content>.rightSec{float: right; background: #3680b5; min-height: 500px; width: 50%;position: relative;}
+section.home_howwework>.content>.rightSec>.textCont{position: absolute; top:28%; left: 10%; color: white}
+section.home_howwework>.content>.leftSec{float: left;background: url(../imgs/howwework.jpg);min-height: 500px;width: 44%;background-position: -100px center;background-size: 780px;border-radius: 250px 0 0 250px; margin-left: 6%;}
+
+
+
+
+/*BG Colors*/
+
+.oceanBlueBG {
+  background-color: #2D9695;
+  border: none;
+}
+
+.secondaryBG {
+  background: #485A5B;
+  border: none;
+}
+
+.opacity_10 {
+  opacity: 0.1
+}
+
+.opacity_20 {
+  opacity: 0.2
+}
+
+.opacity_30 {
+  opacity: 0.3
+}
+
+.opacity_40 {
+  opacity: 0.4
+}
+
+.opacity_50 {
+  opacity: 0.5
+}
+
+.opacity_60 {
+  opacity: 0.6
+}
+
+.opacity_70 {
+  opacity: 0.7
+}
+
+.opacity_80 {
+  opacity: 0.8
+}
+
+.opacity_90 {
+  opacity: 0.9
+}
+
+button, a {
+  outline: none !important
+}
+
+ul.numberit {
+  margin-left: 18px;
+  list-style: disc;
+  margin-bottom: 40px;
+}
+
+ul.numberit li {
+  list-style: disc;
+}
+
+
+/*Font Colors and Sizes*/
+
+.normalFont_Dark {
+  font-family: 'Open Sans';
+  font-weight: 100;
+  color: #4a4a4a !important;
+  font-size: 14px;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-default {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  border: none;
+}
+
+.navbar-brand p {
+  padding: 15px;
+  font-weight: 300;
+  color: #4a4a4a;
+  letter-spacing: normal;
+  font-size: 14px;
+}
+
+.carousel-control.left, .carousel-control.right{background: none;}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{left: 5%}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev{right: 5%}
+
+/*Footer*/
+
+footer {background: #222222; padding: 20px 0; color: #999}
+footer .footerCont > div{padding: 0; margin: 0}
+footer .footerCont > div > .footerLinks{margin: 0; padding: 0}
+footer .footerCont > div > .footerLinks > li{margin: 0; padding: 0; list-style: none; padding-bottom: 4px; margin-bottom: 4px; border-bottom: 1px solid rgba(255,255,255,0.2); width: 60%; }
+
+footer .footerCont > div > .footerSocial{list-style: none; margin: 0; padding: 0; text-align: left;;}
+footer .footerCont > div > .footerSocial >li {list-style: none; margin: 0; padding: 0; display: inline-block; margin-right: 15px;}
+footer .footerCont > div > .footerSocial >li:last-child{margin-right: 0;}
+footer .footerCont > div > .footerSocial >li >a{font-size: 32px;}
+h3.followUs{margin: 0;font-weight: 300;font-size: 16px;text-align: left;}
+h3.followUs1{margin: 0;font-weight: 300;font-size: 24px;text-align: left; margin-bottom: 15px; padding-right: 20px}
+
+footer .footerCont > div > div > .foterAddress{float: left; width: 48%; font-size: 13px; padding-right: 10px;}
+footer .footerCont > div > div > .foterAddress >h3{padding: 0; margin: 0; font-weight: lighter; padding-bottom: 10px; color: #ffffff; font-size: 16px;}
+.footerLocations{font-weight: 300;color: #999;margin: 0;padding: 0;margin-bottom: 18px;padding-bottom: 10px;/*border-bottom: 1px solid rgba(255,255,255,0.2);*/}
+footer .footerCont > div > div > .foterAddress >h3.India{background: url('../imgs/Flag_of_India.svg'); background-size: 23px; padding-left: 50px; margin-bottom: 10px; padding: 0; padding-left: 30px; background-repeat: no-repeat; background-position-y: center;}
+footer .footerCont > div > div > .foterAddress >h3.Malaysia{background: url('../imgs/Flag_of_Malaysia.svg');background-size: 34px; padding-left: 50px; margin-bottom: 10px; padding: 0; padding-left: 42px; background-repeat: no-repeat;}
+footer .footerCont > div > div > .foterAddress .phoneNumbers{margin-top: 10px;}
+footer .footerCont > div > div > .foterAddress .phoneNumbers >p{margin: 0; padding: 0;}
+
+footer a {
+  color: #4292cd;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.socialIcons {
+  float: right;
+}
+
+.socialIcons ul li {
+  float: left;
+  margin-left: 20px;
+}
+
+.socialIcons a {
+  color: #999999;
+  font-size: 18px;
+}
+
+.socialIcons a:hover {
+  color: #2D9695;
+}
+
+.navbar-nav>.active>a {
+  background: #485A5B !important;
+  color: #fff !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #3680b5;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  border-top: 1px solid #4a4a4a;
+  padding-top: 14px;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+  background: #fff;
+  opacity: 0.8
+}
+
+.navbar-default .navbar-toggle:focus {
+  background: #fff;
+  border: 1px solid #4a4a4a;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: #4a4a4a
+}
+
+.noRoundCorners {
+  border-radius: 0 !important
+}
+
+.navbar {
+  border-radius: 0 0 0 0;
+  margin-bottom: 0;
+}
+
+
+
+.modal_close_btn {
+  background: #fff;
+  margin: 8px;
+  text-align: center;
+  width: 30px;
+  padding: 6px;
+  border-radius: 25px;
+  position: fixed;
+  right: 0;
+  box-shadow: none;
+}
+
+.modal-content {
+  top: 50px;
+  border: none;
+  border-radius: 0;
+  /* margin: 0 50px; */
+  height: 100%;
+  box-shadow: none;
+  background: #ededed;
+}
+
+.contactMe {
+  padding: 30px;
+  padding-left: 360px;
+  padding-top: 100px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  background: url('../imgs/ContactPic.png') no-repeat;
+  background-size: contain;
+}
+
+.contactMe>h4 {
+  font-size: 24px;
+  color: #4a4a4a;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.contactInfo {
+  float: left;
+}
+
+.contactInfo a {
+  color: #4a4a4a;
+}
+
+.contactInfo a {}
+
+.socialContact {
+  float: left;
+  margin-left: 100px;
+}
+
+.socialContact>ul>li>a>i {
+  padding-right: 8px;
+}
+
+.socialContact>ul>li>a {
+  color: #4a4a4a;
+}
